@@ -1,4 +1,4 @@
-https://github.com/katrin-krieger/software-patterns/actions/workflows/node.js.yml/badge.svg
+(https://github.com/katrin-krieger/software-patterns/actions/workflows/node.js.yml/badge.svg)
 
 # Software patterns
 
