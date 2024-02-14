@@ -47,12 +47,12 @@ jobs:
                 "type": "section",
                 "accessory": {
           				"type": "image",
-          				"image_url": "https://cdn-icons-png.freepik.com/512/7835/7835473.png",
+          				"image_url": "https://cdn-icons-png.flaticon.com/512/6659/6659895.png",
           				"alt_text": "Failed"
           			},
                 "text": {
                   "type": "mrkdwn",
-                  "text": "GitHub action build result on ${{github.event.repository.name}}:\n❌ ${{ job.status }}\n\n<${{ github.event.pull_request.html_url || github.event.head_commit.url }}|View commit>"
+                  "text": "GitHub action build result on *${{github.event.repository.name}}*:\n ${{ job.status }}\n\n<${{ github.event.pull_request.html_url || github.event.head_commit.url }}|View commit>"
                 }
               }
             ]
