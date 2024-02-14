@@ -38,7 +38,7 @@ jobs:
         # Slack channel id, channel name, or user id to post message.
         # See also: https://api.slack.com/methods/chat.postMessage#channels
         # You can pass in multiple channels to post to by providing a comma-delimited list of channel IDs.
-        channel-id: 'C06JTDK7212'
+        channel-id: ${{ vars.SLACK_CHANNEL_ID }}
         # For posting a simple plain text message
         payload: |
           {
@@ -63,7 +63,7 @@ jobs:
         # Slack channel id, channel name, or user id to post message.
         # See also: https://api.slack.com/methods/chat.postMessage#channels
         # You can pass in multiple channels to post to by providing a comma-delimited list of channel IDs.
-        channel-id: 'C06JTDK7212'
+        channel-id: ${{ vars.SLACK_CHANNEL_ID}}
         # For posting a simple plain text message
         payload: |
           {
