@@ -33,7 +33,7 @@ jobs:
     - name: Post failure to a Slack channel
       id: slack-failure
       uses: slackapi/slack-github-action@v1.25.0
-      if: ${{ job.status != 'success' }}
+      #if: ${{ job.status != 'success' }}
       with:
         # Slack channel id, channel name, or user id to post message.
         # See also: https://api.slack.com/methods/chat.postMessage#channels
